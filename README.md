@@ -6,9 +6,18 @@ My aim is to demonstrate how multi-modal LLMs such as Google Gemini can signific
 This repository includes:
 1. A PDF detailing architectures for two different AI solutions on the AWS platform:
    1. A CNN model for image classification
-   2. A serverless approach using Google Gemini 1.5_pro_002 for image classification and grading 
+   2. A serverless approach using Google Gemini 1.5_pro_002 API for image classification and grading 
 2. Requirements for both AI solutions
 3. Jupyter Notebooks for the development and execution of both approaches
 4. AWS Lambda Functions for implementing the serverless approach with LLMs
 
-
+**Performance:**
+**Dataset:**
+   Huggingface dataset has been used to train, test, validate the CNN model, and to validate Google Gemini LLM API wrapper.
+**Results:**
+1. CNN Model:
+   Classification Accuracy of CNN Model trained on 2000 images: 13.6%
+2. Google Gemini LLM API Wrapper:
+   Classification Accuracy: 95%
+   Grading Accuracy: 60%
+   _Note:_The performance is highly dependent on Prompt Engineering, and fine-tuning the prompt can further imprve the performance
