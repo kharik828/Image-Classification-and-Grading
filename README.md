@@ -23,3 +23,14 @@ This repository includes:
    Classification Accuracy: 95%
    Grading Accuracy: 60%
    _Note:_The performance is highly dependent on Prompt Engineering, and fine-tuning the prompt can further imprve the performance
+
+**AWS Technology Stack**
+1. AWS Lambda
+Serverless architecture for scalable processing of food images.
+Invoked a Lambda function by invoker Lambda function. Special IAM roles have to be created to provide invoke access to Lambda functions
+Implemented data preprocessing and Google Gemini API wrapper triggers for inference tasks
+3. AWS SageMaker
+Hosted and deployed the trained CNN model.
+Conducted large-scale model training and optimization.
+4. AWS S3
+Stored datasets and model artifacts.
