@@ -12,8 +12,10 @@ This repository includes:
 4. AWS Lambda Functions for implementing the serverless approach with LLMs
 
 **Performance:**
+
 **Dataset:**
    Huggingface dataset has been used to train, test, validate the CNN model, and to validate Google Gemini LLM API wrapper.
+   
 **Results:**
 1. CNN Model:
    Classification Accuracy of CNN Model trained on 2000 images: 13.6%
