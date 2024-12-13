@@ -1,0 +1,23 @@
+Jupyter Notebook:
+!pip install datasets
+!pip install numpy
+!pip install pandas
+!pip install matplotlib
+!pip install tensorflow
+!pip install tensorflow-datasets 
+!pip install scikit-learn seaborn
+!pip install --upgrade ipywidgets
+!pip install requests
+!pip install pillow
+!pip3 install --upgrade "google-cloud-aiplatform>=1.64"
+!pip install keras
+
+Layers on AWS Platform:
+
+Python runtime=3.9
+pandas
+numpy
+google-cloud-aiplatform>=1.64
+matplotlib
+pillow
+requests
