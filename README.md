@@ -19,10 +19,13 @@ This repository includes:
 **Results:**
 1. CNN Model:
    Classification Accuracy of CNN Model trained on 2000 images: 13.6%
+   Limited image count within each category classification
+   _Note:_The performance is highly dependent on the Ground Truth data labeling and size
 2. Google Gemini LLM API Wrapper:
    Classification Accuracy: 95%
    Grading Accuracy: 60%
-   _Note:_The performance is highly dependent on Prompt Engineering, and fine-tuning the prompt can further imprve the performance
+   Significantly low OpEx
+   _Note:_The performance is highly dependent on the Prompt Engineering, and fine-tuning the prompt can further imprve the performance
 
 **AWS Technology Stack**
 1. AWS Lambda
